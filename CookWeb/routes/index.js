@@ -11,5 +11,6 @@ module.exports = function(app){
   app.get('/talk',function(req,res){res.render('talk');});
   app.get('/login',function(req,res){res.render('login');});
   app.get('/farm',function(req,res){res.render('farm');});
-  app.get('/cook',function(req,res){res.render('cook')})
+  app.get('/cook',function(req,res){res.render('cook');});
+  app.get('shop',function(req,res){res.render('shop');});
 };
